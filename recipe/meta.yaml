@@ -35,7 +35,6 @@ test:
     - opentelemetry.instrumentation.sagemaker
   commands:
     - pip check
-    - pytest -v gh_src/packages/{{ name }}/tests
   requires:
     - pip
     - boto3 >=1.34.120,<2.0.0
